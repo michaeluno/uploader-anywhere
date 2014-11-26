@@ -5,7 +5,7 @@
     Description:    Inserts links of the uploader modal window anywhere in the admin area.
     Author:         Michael Uno
     Author URI:     http://michaeluno.jp
-    Version:        1.0.0
+    Version:        1.0.1
     Requirements:   PHP 5.2.4 or above, WordPress 3.5 or above.
 */ 
 
@@ -16,7 +16,7 @@
  */
 class UploaderAnywhere_Registry_Base {
 
-	const Version        = '1.0.0.';    // <--- DON'T FORGET TO CHANGE THIS AS WELL!!
+	const Version        = '1.0.1';    // <--- DON'T FORGET TO CHANGE THIS AS WELL!!
 	const Name           = 'Uploader Anywhere';
 	const Description    = 'Inserts links of the uploader modal window anywhere in the admin area.';
 	const URI            = 'http://en.michaeluno.jp/';
