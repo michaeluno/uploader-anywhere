@@ -107,18 +107,18 @@ final class UploaderAnywhere_Bootstrap {
             array(
                 'php' => array(
                     'version'    =>    UploaderAnywhere_Registry::RequiredPHPVersion,
-                    'error'        =>    __( 'The plugin requires the PHP version %1$s or higher.', 'uploader-anywheere' ),
+                    'error'        =>    __( 'The plugin requires the PHP version %1$s or higher.', 'uploader-anywhere' ),
                 ),
                 'wordpress' => array(
                     'version'    =>    UploaderAnywhere_Registry::RequiredWordPressVersion,
-                    'error'        =>    __( 'The plugin requires the WordPress version %1$s or higher.', 'uploader-anywheere' ),
+                    'error'        =>    __( 'The plugin requires the WordPress version %1$s or higher.', 'uploader-anywhere' ),
                 ),
                 // 'mysql'    =>    array(
                     // 'version'    =>    '5.5.24',
-                    // 'error' => __( 'The plugin requires the MySQL version %1$s or higher.', 'uploader-anywheere' ),
+                    // 'error' => __( 'The plugin requires the MySQL version %1$s or higher.', 'uploader-anywhere' ),
                 // ),
                 'functions' => array(
-                    'curl_version' => sprintf( __( 'The plugin requires the %1$s to be installed.', 'uploader-anywheere' ), 'the cURL library' ),
+                    'curl_version' => sprintf( __( 'The plugin requires the %1$s to be installed.', 'uploader-anywhere' ), 'the cURL library' ),
                 ),
                 // 'classes' => array(
                     // 'DOMDocument' => sprintf( __( 'The plugin requires the <a href="%1$s">libxml</a> extension to be activated.', 'pseudo-image' ), 'http://www.php.net/manual/en/book.libxml.php' ),
@@ -219,21 +219,21 @@ final class UploaderAnywhere_Bootstrap {
                         
             new UploaderAnywhere_MetaBox_Main(
                 null,   // the meta box id, let it auto generate
-                __( 'Target Pages', 'uploader-anywheere' ),
+                __( 'Target Pages', 'uploader-anywhere' ),
                 array( UploaderAnywhere_Registry::PostType_Link ),  // belonging post type slugs
                 'normal',    // context
                 'high'       // priority
             );        
             new UploaderAnywhere_MetaBox_TargetElement(
                 null,   // the meta box id, let it auto generate
-                __( 'Target HTML Elements', 'uploader-anywheere' ),
+                __( 'Target HTML Elements', 'uploader-anywhere' ),
                 array( UploaderAnywhere_Registry::PostType_Link ),  // belonging post type slugs
                 'normal',    // context
                 'default'    // priority
             );                    
             new UploaderAnywhere_MetaBox_Uploader(
                 null,   // the meta box id, let it auto generate
-                __( 'Uploader Settings', 'uploader-anywheere' ),
+                __( 'Uploader Settings', 'uploader-anywhere' ),
                 array( UploaderAnywhere_Registry::PostType_Link ),  // belonging post type slugs
                 'normal',    // context         
                 'low'        // priority
