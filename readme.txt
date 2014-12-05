@@ -41,6 +41,9 @@ In that case, use this plugin to embed an uploader link. Example rules will be c
 
 == Changelog ==
 
+= 1.0.2 =
+- Fixed a bug that a menu icon was not set in WordPress below v3.8.
+
 = 1.0.1 - 2014/11/26 =
 - Fixed a layout issue in Internet Explorer.
 - Updated [Admin Page Framework](https://wordpress.org/plugins/admin-page-framework/).

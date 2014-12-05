@@ -46,7 +46,7 @@ class UploaderAnywhere_PostType_Link extends UploaderAnywhere_AdminPageFramework
                 'has_archive'       => false,
                 'show_admin_column' => false, // this is for custom taxonomies to automatically add the column in the listing table.
                 'menu_icon'         => $this->oProp->bIsAdmin 
-                    ? ( version_compare( $GLOBALS['wp_version'], '3.8', '>=' ) ? 'dashicons-upload' : plugins_url( 'asset/image/icon_16x16.png', APFDEMO_FILE ) )
+                    ? ( version_compare( $GLOBALS['wp_version'], '3.8', '>=' ) ? 'dashicons-upload' : plugins_url( 'asset/image/icon_16x16.png', UploaderAnywhere_Registry::$sFilePath ) )
                     : null, // do not call the function in the front-end.
                 // ( framework specific key ) this sets the screen icon for the post type for WordPress v3.7.1 or below.
                 'screen_icon' => UploaderAnywhere_Registry::$sDirPath . '/asset/image/icon_32x32.png', // a file path can be passed instead of a url, plugins_url( 'asset/image/wp-logo_32x32.png', APFDEMO_FILE )
